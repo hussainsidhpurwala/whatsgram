@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    background-image: url(./background.jpg);
+    background-size: cover;
+}
+h1{
+    margin: 0 35rem;
+    padding: 1rem;
+    width: 40rem;
+    text-align: center;
+    background-color: rgb(93, 255, 93);
+}
+.show-h2{
+    margin: 0 35rem;
+    padding: 1rem;
+    width: 40rem;
+    text-align: center;
+    background-color: rgb(93, 255, 93);
+}
+.container{
+    margin: 4.5rem 24rem;
+    width: 70rem;
+    height: 8rem;
+    text-align: center;
+    background-color: rgb(200, 251, 200);
+    font-style: italic;
+}
+.user{
+    font-size: 30px;
+}
+.cont{
+    font-size: 25px;
+}
+.main{
+    width: 100%;
+    height: auto;
+}
+form input{
+    margin-top: 3rem;
+    margin-left: 25rem;
+    width: auto;
+    padding: 1rem;
+    color: rgb(4, 54, 25);
+}
+form textarea{
+    margin-top: 2rem;
+    margin-left: 25rem;
+    width: auto;
+    padding: 1rem;
+    color: rgb(4, 54, 25);
+}
+.editarea{
+    margin-top: 2rem;
+    margin-left: 35rem;
+    width: auto;
+    padding: 1rem;
+    color: rgb(4, 54, 25);
+}
+.btn{
+    margin-left: 35rem;
+    margin-bottom: 2rem;
+    padding: 10px 20px;
+    /* position: absolute; */
+    top:50%;
+    background-color:#b3faa9;
+    color: #1e0505;
+    
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(55, 250, 172);
+}
+.btn2{
+    margin-left: 35rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 10px 20px;
+    /* position: absolute; */
+    top:50%;
+    background-color:#b3faa9;
+    color: #1e0505;
+    
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(55, 250, 172);
+}
+.btn3{
+    margin-left: 45%;
+    padding: 10px 20px;
+    background-color:#b3faa9;
+    color: #1e0505;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(55, 250, 172);
+}
+.anch{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.anch a{
+    text-decoration: none;
+    color: bisque;
+    margin-right: 3rem;
+
+}
+.anc{
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 20rem;
+    width: 30rem;
+    background-color: #1e0505;
+}
+.anc a{
+    text-decoration: none;
+    color: bisque;
+
+}

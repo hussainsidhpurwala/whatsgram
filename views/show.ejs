@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post in Detail</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="page">
+        <h2 class="show-h2">Hey here is your detailed post</h2>
+        <div class="container">
+            <h3>Post ID:- <%= tweet.id %>
+            </h3>
+            <h2>@<%= tweet.username%>
+            </h2>
+            <h3>
+                <%= tweet.content %>
+            </h3>
+
+            <hr>
+
+            <div class="anc">
+                <a href="http://localhost:8080/posts">Go Back</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

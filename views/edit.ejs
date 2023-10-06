@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="page">
+        <h1>Edit Your Post</h1>
+        <h2 class="show-h2">Post id: <%= tweet.id %>
+        </h2>
+        <h2 class="show-h2">Username:@<%= tweet.username%>
+        </h2>
+        <form method="post" action="/posts/<%= tweet.id %>?_method=PATCH">
+            <textarea name="content" id="" cols="50" rows="8" class="editarea"><%= tweet.content %></textarea><br><br>
+            <button class="btn2">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
